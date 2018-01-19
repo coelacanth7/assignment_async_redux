@@ -35,7 +35,7 @@ export function searchForBooks(query) {
 				return response.json();
 			})
 			.then(json => {
-				dispatch(getBOOKSuccess(json));
+				dispatch(getBOOKSuccess(json.GoodreadsResponse.search.results.work));
 			})
 			.catch(error => {
 				dispatch(getBOOKFailure(error));

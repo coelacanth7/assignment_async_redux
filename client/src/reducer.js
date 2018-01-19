@@ -6,7 +6,6 @@ import {
 
 const initialState = {
 	books: [],
-	searchValue: "",
 	book: {},
 	isFetching: false,
 	error: null

@@ -6,10 +6,12 @@ const BookList = ({ books, isFetching }) => {
 		<BookCard book={book} key={index} />
 	));
 
+	console.log("books", JSON.stringify(books, 0, 2));
+
 	return (
-		<div className="container">
+		<div className="container-fluid">
 			<h1>Books:</h1>
-			<div className="card-deck">
+			<div className="card-group">
 				{isFetching ? <h2>Loading...</h2> : bookList}
 			</div>
 		</div>

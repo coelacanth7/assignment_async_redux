@@ -14,8 +14,13 @@ const mapStateToProps = state => {
 
 const mapDispatchToProps = dispatch => {
 	return {
-		onSubmit: query => {
-			dispatch(searchForBooks(query));
+		onSubmit: e => {
+			e.preventDefault();
+			const form = e.target;
+			const data = serialize(form, { hash: true });
+			console.log("data from form", data);
+			dispatch(searchForBooks(data.query));
+			// form.reset();
 		}
 	};
 };

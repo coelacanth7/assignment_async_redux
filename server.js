@@ -32,13 +32,13 @@ function parseJSON(response) {
 
 // search for books
 app.get("/api/goodreads/search", (req, res, next) => {
-	console.log(`Requesting goodreads search info for ${req.query.book}`);
-
-	fetch(`${baseUrl}search/index.xml?key=${KEY}&q=gatsby`)
+	console.log(`Requesting goodreads search info for ${req.query.search}`);
+	console.log(req.query);
+	fetch(`${baseUrl}search/index.xml?key=${KEY}&q=${req.query.search}`)
 		.then(checkStatus)
 		.then(parseJSON)
 		.then(json => {
-			console.log("json", JSON.stringify(json, 0, 2));
+			// console.log("json", JSON.stringify(json, 0, 2));
 			res.json(json);
 		})
 		.catch(error => {

@@ -2,6 +2,8 @@ import React from "react";
 import BookList from "./BookList";
 
 const BookSearch = ({ books, isFetching, onSubmit }) => {
+	const bookList = <BookList books={books} isFetching={isFetching} />;
+
 	return (
 		<div>
 			<form onSubmit={onSubmit}>
@@ -9,6 +11,7 @@ const BookSearch = ({ books, isFetching, onSubmit }) => {
 					<div className="col">
 						<input
 							type="text"
+							name="query"
 							className="form-control"
 							placeholder="search..."
 						/>
@@ -22,8 +25,7 @@ const BookSearch = ({ books, isFetching, onSubmit }) => {
 					</div>
 				</div>
 			</form>
-
-			<BookList books={books} isFetching={isFetching} />
+			{books.length ? bookList : <p>"no books my dude"</p>}
 		</div>
 	);
 };
