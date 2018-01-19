@@ -12,6 +12,8 @@ const SelectedBook = ({ book, isFetching }) => {
 			</div>
 			<div className="col-sm-8">
 				<h1>{book.title}</h1>
+				<h2>{book.authors.author.name}</h2>
+				<h5>Published: {book.work.original_publication_year}</h5>
 				<p>{book.description}</p>
 			</div>
 		</div>
