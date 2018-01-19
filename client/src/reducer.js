@@ -30,7 +30,7 @@ export function bookReducer(state = initialState, action) {
 			return {
 				...state,
 				isFetching: false,
-				error: acion.error
+				error: action.error
 			};
 		default:
 			return state;
