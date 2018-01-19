@@ -1,12 +1,12 @@
 import React from "react";
 import BookCard from "./BookCard";
 
-const BookList = ({ books, isFetching }) => {
+const BookList = ({ books, isFetching, onClick }) => {
 	const bookList = books.map((book, index) => (
-		<BookCard book={book} key={index} />
+		<BookCard book={book} key={index} onClick={onClick} />
 	));
 
-	console.log("books", JSON.stringify(books, 0, 2));
+	// console.log("books", JSON.stringify(books, 0, 2));
 
 	return (
 		<div className="container-fluid">

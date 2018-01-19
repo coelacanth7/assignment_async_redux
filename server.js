@@ -33,7 +33,6 @@ function parseJSON(response) {
 // search for books
 app.get("/api/goodreads/search", (req, res, next) => {
 	console.log(`Requesting goodreads search info for ${req.query.search}`);
-	console.log(req.query);
 	fetch(`${baseUrl}search/index.xml?key=${KEY}&q=${req.query.search}`)
 		.then(checkStatus)
 		.then(parseJSON)
@@ -47,7 +46,7 @@ app.get("/api/goodreads/search", (req, res, next) => {
 });
 
 // get info on a book
-app.get("/api/goodreads/book/:bookId", (req, res, next) => {
+app.get("/api/goodreads/book/", (req, res, next) => {
 	console.log(`Requesting book info for ${req.query.id}`);
 
 	fetch(`${baseUrl}book/show/4671.XML?key=${KEY}`)

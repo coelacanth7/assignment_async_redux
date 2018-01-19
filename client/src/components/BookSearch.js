@@ -1,11 +1,17 @@
 import React from "react";
 import BookList from "./BookList";
+import SelectedBook from "./SelectedBook";
 
-const BookSearch = ({ books, isFetching, onSubmit }) => {
-	const bookList = <BookList books={books} isFetching={isFetching} />;
+const BookSearch = ({ books, book, isFetching, onSubmit, onClick }) => {
+	const bookList = (
+		<BookList books={books} isFetching={isFetching} onClick={onClick} />
+	);
+
+	const selectedBook = <SelectedBook book={book} isFetching={isFetching} />;
 
 	return (
 		<div>
+			{Object.keys(book).length ? selectedBook : <p>select a book...</p>}
 			<form onSubmit={onSubmit}>
 				<div className="form-row">
 					<div className="col">

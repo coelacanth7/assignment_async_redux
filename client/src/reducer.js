@@ -1,7 +1,8 @@
 import {
 	GET_BOOK_REQUEST,
-	GET_BOOK_SUCCESS,
-	GET_BOOK_FAILURE
+	GET_BOOKS_SUCCESS,
+	GET_BOOK_FAILURE,
+	GET_SELECTED_BOOK_SUCCESS
 } from "./actions";
 
 const initialState = {
@@ -19,12 +20,19 @@ export function bookReducer(state = initialState, action) {
 				isFetching: true,
 				error: null
 			};
-		case GET_BOOK_SUCCESS:
+		case GET_BOOKS_SUCCESS:
 			return {
 				...state,
 				books: action.data,
 				isFetching: false
 			};
+		case GET_SELECTED_BOOK_SUCCESS:
+			return {
+				...state,
+				book: action.data,
+				isFetching: false
+			};
+
 		case GET_BOOK_FAILURE:
 			return {
 				...state,
