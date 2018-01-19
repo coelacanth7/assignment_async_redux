@@ -1,0 +1,427 @@
+{
+	"GoodreadsResponse": {
+		"Request": {
+			"authentication": "true",
+			"key": "FEXELjCygXGPg29ilvJQ",
+			"method": "book_show"
+		},
+		"book": {
+			"id": 4671,
+			"title": "The Great Gatsby",
+			"isbn": 743273567,
+			"isbn13": 9780743273565,
+			"asin": "",
+			"kindle_asin": "B078HX1XX5",
+			"marketplace_id": "ATVPDKIKX0DER",
+			"country_code": "US",
+			"image_url": "https://images.gr-assets.com/books/1490528560m/4671.jpg",
+			"small_image_url":
+				"https://images.gr-assets.com/books/1490528560s/4671.jpg",
+			"publication_year": 2004,
+			"publication_month": 9,
+			"publication_day": "",
+			"publisher": "Scribner",
+			"language_code": "eng",
+			"is_ebook": "false",
+			"description":
+				"Jay Gatsby is the man who has everything. But one thing will always be out of his reach. Everybody who is anybody is seen at his glittering parties. Day and night his Long Island mansion buzzes with bright young things drinking, dancing, and debating his mysterious character. For Gatsby---young, handsome, and fabulously rich---always seems alone in the crowd, watching and waiting, though no one knows what for. Beneath the shimmering surface of his life he is hiding a secret: a silent longing that can never be fulfilled. And soon this destructive obsession will force his world to unravel.<br /><br />This unabridged audiobook is a recording of the original 1924 Book Club edition.",
+			"work": {
+				"id": 245494,
+				"books_count": 1445,
+				"best_book_id": 4671,
+				"reviews_count": 3859722,
+				"ratings_sum": 11436033,
+				"ratings_count": 2934955,
+				"text_reviews_count": 53637,
+				"original_publication_year": 1925,
+				"original_publication_month": 4,
+				"original_publication_day": "",
+				"original_title": "The Great Gatsby",
+				"original_language_id": "",
+				"media_type": "book",
+				"rating_dist":
+					"5:1015259|4:987614|3:635750|2:205700|1:90632|total:2934955",
+				"desc_user_id": 35714579,
+				"default_chaptering_book_id": 16166573,
+				"default_description_language_code": ""
+			},
+			"average_rating": 3.9,
+			"num_pages": 180,
+			"format": "Paperback",
+			"edition_information": "US / CAN",
+			"ratings_count": 2836687,
+			"text_reviews_count": 44432,
+			"url": "https://www.goodreads.com/book/show/4671.The_Great_Gatsby",
+			"link": "https://www.goodreads.com/book/show/4671.The_Great_Gatsby",
+			"authors": {
+				"author": {
+					"id": 3190,
+					"name": "F. Scott Fitzgerald",
+					"role": "",
+					"image_url":
+						"https://images.gr-assets.com/authors/1427040571p5/3190.jpg",
+					"small_image_url":
+						"https://images.gr-assets.com/authors/1427040571p2/3190.jpg",
+					"link":
+						"https://www.goodreads.com/author/show/3190.F_Scott_Fitzgerald",
+					"average_rating": 3.89,
+					"ratings_count": 3233965,
+					"text_reviews_count": 71239
+				}
+			},
+			"reviews_widget": {
+				"style":
+					"   #goodreads-widget {\n    font-family: georgia, serif;\n    padding: 18px 0;\n    width:565px;\n  }\n  #goodreads-widget h1 {\n    font-weight:normal;\n    font-size: 16px;\n    border-bottom: 1px solid #BBB596;\n    margin-bottom: 0;\n  }\n  #goodreads-widget a {\n    text-decoration: none;\n    color:#660;\n  }\n  iframe{\n    background-color: #fff;\n  }\n  #goodreads-widget a:hover { text-decoration: underline; }\n  #goodreads-widget a:active {\n    color:#660;\n  }\n  #gr_footer {\n    width: 100%;\n    border-top: 1px solid #BBB596;\n    text-align: right;\n  }\n  #goodreads-widget .gr_branding{\n    color: #382110;\n    font-size: 11px;\n    text-decoration: none;\n    font-family: \"Helvetica Neue\", Helvetica, Arial, sans-serif;\n  }\n",
+				"div": {
+					"div": [
+						{
+							"h1": {
+								"a": "The Great Gatsby Reviews"
+							}
+						},
+						{
+							"a": "Reviews from Goodreads.com"
+						}
+					],
+					"iframe": ""
+				}
+			},
+			"popular_shelves": {
+				"shelf": [
+					"",
+					"",
+					"",
+					"",
+					"",
+					"",
+					"",
+					"",
+					"",
+					"",
+					"",
+					"",
+					"",
+					"",
+					"",
+					"",
+					"",
+					"",
+					"",
+					"",
+					"",
+					"",
+					"",
+					"",
+					"",
+					"",
+					"",
+					"",
+					"",
+					"",
+					"",
+					"",
+					"",
+					"",
+					"",
+					"",
+					"",
+					"",
+					"",
+					"",
+					"",
+					"",
+					"",
+					"",
+					"",
+					"",
+					"",
+					"",
+					"",
+					"",
+					"",
+					"",
+					"",
+					"",
+					"",
+					"",
+					"",
+					"",
+					"",
+					"",
+					"",
+					"",
+					"",
+					"",
+					"",
+					"",
+					"",
+					"",
+					"",
+					"",
+					"",
+					"",
+					"",
+					"",
+					"",
+					"",
+					"",
+					"",
+					"",
+					"",
+					"",
+					"",
+					"",
+					"",
+					"",
+					"",
+					"",
+					"",
+					"",
+					"",
+					"",
+					"",
+					"",
+					"",
+					"",
+					"",
+					"",
+					"",
+					"",
+					""
+				]
+			},
+			"book_links": {
+				"book_link": {
+					"id": 8,
+					"name": "Libraries",
+					"link": "https://www.goodreads.com/book_link/follow/8"
+				}
+			},
+			"buy_links": {
+				"buy_link": [
+					{
+						"id": 1,
+						"name": "Amazon",
+						"link": "https://www.goodreads.com/book_link/follow/1"
+					},
+					{
+						"id": 10,
+						"name": "Audible",
+						"link": "https://www.goodreads.com/book_link/follow/10"
+					},
+					{
+						"id": 3,
+						"name": "Barnes &amp; Noble",
+						"link": "https://www.goodreads.com/book_link/follow/3"
+					},
+					{
+						"id": 1027,
+						"name": "Kobo",
+						"link": "https://www.goodreads.com/book_link/follow/1027"
+					},
+					{
+						"id": 2102,
+						"name": "Apple iBooks",
+						"link": "https://www.goodreads.com/book_link/follow/2102"
+					},
+					{
+						"id": 8036,
+						"name": "Google Play",
+						"link": "https://www.goodreads.com/book_link/follow/8036"
+					},
+					{
+						"id": 4,
+						"name": "Abebooks",
+						"link": "https://www.goodreads.com/book_link/follow/4"
+					},
+					{
+						"id": 882,
+						"name": "Book Depository",
+						"link": "https://www.goodreads.com/book_link/follow/882"
+					},
+					{
+						"id": 9,
+						"name": "Indigo",
+						"link": "https://www.goodreads.com/book_link/follow/9"
+					},
+					{
+						"id": 5,
+						"name": "Alibris",
+						"link": "https://www.goodreads.com/book_link/follow/5"
+					},
+					{
+						"id": 107,
+						"name": "Better World Books",
+						"link": "https://www.goodreads.com/book_link/follow/107"
+					},
+					{
+						"id": 7,
+						"name": "IndieBound",
+						"link": "https://www.goodreads.com/book_link/follow/7"
+					}
+				]
+			},
+			"series_works": null,
+			"similar_books": {
+				"book": [
+					{
+						"id": 48203,
+						"title": "The Professor&apos;s House",
+						"title_without_series": "The Professor&apos;s House",
+						"link":
+							"https://www.goodreads.com/book/show/48203.The_Professor_s_House",
+						"small_image_url":
+							"https://images.gr-assets.com/books/1328729214s/48203.jpg",
+						"image_url":
+							"https://images.gr-assets.com/books/1328729214m/48203.jpg",
+						"num_pages": "",
+						"work": {
+							"id": 342924
+						},
+						"isbn": 1844083764,
+						"isbn13": 9781844083763,
+						"average_rating": 3.76,
+						"ratings_count": 5796,
+						"publication_year": 2006,
+						"publication_month": 9,
+						"publication_day": 7,
+						"authors": {
+							"author": {
+								"id": 881203,
+								"name": "Willa Cather",
+								"link":
+									"https://www.goodreads.com/author/show/881203.Willa_Cather"
+							}
+						}
+					},
+					{
+						"id": 337113,
+						"title": "The Tenant of Wildfell Hall",
+						"title_without_series": "The Tenant of Wildfell Hall",
+						"link":
+							"https://www.goodreads.com/book/show/337113.The_Tenant_of_Wildfell_Hall",
+						"small_image_url":
+							"https://images.gr-assets.com/books/1479652419s/337113.jpg",
+						"image_url":
+							"https://images.gr-assets.com/books/1479652419m/337113.jpg",
+						"num_pages": 542,
+						"work": {
+							"id": 1389477
+						},
+						"isbn": 140434747,
+						"isbn13": 9780140434743,
+						"average_rating": 3.91,
+						"ratings_count": 69603,
+						"publication_year": 1996,
+						"publication_month": 4,
+						"publication_day": 16,
+						"authors": {
+							"author": {
+								"id": 8249,
+								"name": "Anne Brontë",
+								"link": "https://www.goodreads.com/author/show/8249.Anne_Bront_"
+							}
+						}
+					},
+					{
+						"id": 176972,
+						"title": "The Annotated Alice: The Definitive Edition",
+						"title_without_series":
+							"The Annotated Alice: The Definitive Edition",
+						"link":
+							"https://www.goodreads.com/book/show/176972.The_Annotated_Alice",
+						"small_image_url":
+							"https://images.gr-assets.com/books/1367782378s/176972.jpg",
+						"image_url":
+							"https://images.gr-assets.com/books/1367782378m/176972.jpg",
+						"num_pages": 312,
+						"work": {
+							"id": 15777985
+						},
+						"isbn": 393048470,
+						"isbn13": 9780393048476,
+						"average_rating": 4.42,
+						"ratings_count": 9382,
+						"publication_year": "",
+						"publication_month": "",
+						"publication_day": "",
+						"authors": {
+							"author": {
+								"id": 8164,
+								"name": "Lewis Carroll",
+								"link":
+									"https://www.goodreads.com/author/show/8164.Lewis_Carroll"
+							}
+						}
+					},
+					{
+						"id": 188087,
+						"title": "The Garden Party and Other Stories",
+						"title_without_series": "The Garden Party and Other Stories",
+						"link":
+							"https://www.goodreads.com/book/show/188087.The_Garden_Party_and_Other_Stories",
+						"small_image_url":
+							"https://images.gr-assets.com/books/1299179403s/188087.jpg",
+						"image_url":
+							"https://images.gr-assets.com/books/1299179403m/188087.jpg",
+						"num_pages": 159,
+						"work": {
+							"id": 1698523
+						},
+						"isbn": 140188800,
+						"isbn13": 9780140188806,
+						"average_rating": 3.87,
+						"ratings_count": 4919,
+						"publication_year": 1998,
+						"publication_month": 1,
+						"publication_day": 1,
+						"authors": {
+							"author": {
+								"id": 45712,
+								"name": "Katherine Mansfield",
+								"link":
+									"https://www.goodreads.com/author/show/45712.Katherine_Mansfield"
+							}
+						}
+					},
+					{
+						"id": 10956,
+						"title": "The Virgin Suicides",
+						"title_without_series": "The Virgin Suicides",
+						"link":
+							"https://www.goodreads.com/book/show/10956.The_Virgin_Suicides",
+						"small_image_url":
+							"https://images.gr-assets.com/books/1319032910s/10956.jpg",
+						"image_url":
+							"https://images.gr-assets.com/books/1319032910m/10956.jpg",
+						"num_pages": 250,
+						"work": {
+							"id": 812415
+						},
+						"isbn": 747560595,
+						"isbn13": 9780747560593,
+						"average_rating": 3.83,
+						"ratings_count": 190171,
+						"publication_year": 2002,
+						"publication_month": "",
+						"publication_day": "",
+						"authors": {
+							"author": {
+								"id": 1467,
+								"name": "Jeffrey Eugenides",
+								"link":
+									"https://www.goodreads.com/author/show/1467.Jeffrey_Eugenides"
+							}
+						}
+					},
+					{
+						"id": 12722,
+						"title": "The Moon Is Down",
+						"title_without_series": "The Moon Is Down",
+						"link": "https://www.goodreads.com/book/show/12722.The_Moon_Is_Down"
+					}
+				]
+			}
+		}
+	}
+}

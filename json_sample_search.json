@@ -1,0 +1,243 @@
+{
+	"GoodreadsResponse": {
+		"Request": {
+			"authentication": "true",
+			"key": "FEXELjCygXGPg29ilvJQ",
+			"method": "search_index"
+		},
+		"search": {
+			"query": "gatsby",
+			"results-start": 1,
+			"results-end": 10,
+			"total-results": 471,
+			"source": "Goodreads",
+			"query-time-seconds": 0.1,
+			"results": {
+				"work": [
+					{
+						"id": 245494,
+						"books_count": 1445,
+						"ratings_count": 2934892,
+						"text_reviews_count": 53636,
+						"original_publication_year": 1925,
+						"original_publication_month": 4,
+						"original_publication_day": "",
+						"average_rating": 3.9,
+						"best_book": {
+							"id": 4671,
+							"title": "The Great Gatsby",
+							"author": {
+								"id": 3190,
+								"name": "F. Scott Fitzgerald"
+							},
+							"image_url":
+								"https://images.gr-assets.com/books/1490528560m/4671.jpg",
+							"small_image_url":
+								"https://images.gr-assets.com/books/1490528560s/4671.jpg"
+						}
+					},
+					{
+						"id": 24595109,
+						"books_count": 4,
+						"ratings_count": 522,
+						"text_reviews_count": 32,
+						"original_publication_year": 2013,
+						"original_publication_month": "",
+						"original_publication_day": "",
+						"average_rating": 3.82,
+						"best_book": {
+							"id": 17623880,
+							"title": "Gatsby Girls",
+							"author": {
+								"id": 3190,
+								"name": "F. Scott Fitzgerald"
+							},
+							"image_url":
+								"https://images.gr-assets.com/books/1364994454m/17623880.jpg",
+							"small_image_url":
+								"https://images.gr-assets.com/books/1364994454s/17623880.jpg"
+						}
+					},
+					{
+						"id": 10563621,
+						"books_count": 14,
+						"ratings_count": 3548,
+						"text_reviews_count": 566,
+						"original_publication_year": 2010,
+						"original_publication_month": 5,
+						"original_publication_day": 27,
+						"average_rating": 3.2,
+						"best_book": {
+							"id": 7744084,
+							"title": "The Summer We Read Gatsby",
+							"author": {
+								"id": 495115,
+								"name": "Danielle Ganek"
+							},
+							"image_url":
+								"https://images.gr-assets.com/books/1273934064m/7744084.jpg",
+							"small_image_url":
+								"https://images.gr-assets.com/books/1273934064s/7744084.jpg"
+						}
+					},
+					{
+						"id": 13458,
+						"books_count": 8,
+						"ratings_count": 885,
+						"text_reviews_count": 129,
+						"original_publication_year": 2006,
+						"original_publication_month": 5,
+						"original_publication_day": 1,
+						"average_rating": 3.51,
+						"best_book": {
+							"id": 10846,
+							"title": "Gatsby's Girl",
+							"author": {
+								"id": 7086,
+								"name": "Caroline Preston"
+							},
+							"image_url":
+								"https://s.gr-assets.com/assets/nophoto/book/111x148-bcc042a9c91a29c1d680899eff700a03.png",
+							"small_image_url":
+								"https://s.gr-assets.com/assets/nophoto/book/50x75-a91bf249278a81aabab721ef782c4a74.png"
+						}
+					},
+					{
+						"id": 26110384,
+						"books_count": 2,
+						"ratings_count": 59,
+						"text_reviews_count": 9,
+						"original_publication_year": 2013,
+						"original_publication_month": 12,
+						"original_publication_day": 1,
+						"average_rating": 3.93,
+						"best_book": {
+							"id": 18459045,
+							"title": "Gatsby's Smile",
+							"author": {
+								"id": 7256493,
+								"name": "Morana Blue"
+							},
+							"image_url":
+								"https://images.gr-assets.com/books/1378814703m/18459045.jpg",
+							"small_image_url":
+								"https://images.gr-assets.com/books/1378814703s/18459045.jpg"
+						}
+					},
+					{
+						"id": 23687284,
+						"books_count": 12,
+						"ratings_count": 1494,
+						"text_reviews_count": 330,
+						"original_publication_year": 2013,
+						"original_publication_month": 6,
+						"original_publication_day": 6,
+						"average_rating": 3.59,
+						"best_book": {
+							"id": 18079759,
+							"title":
+								"Careless People: Murder, Mayhem, and the Invention of The Great Gatsby",
+							"author": {
+								"id": 106324,
+								"name": "Sarah Churchwell"
+							},
+							"image_url":
+								"https://images.gr-assets.com/books/1395626349m/18079759.jpg",
+							"small_image_url":
+								"https://images.gr-assets.com/books/1395626349s/18079759.jpg"
+						}
+					},
+					{
+						"id": 8273,
+						"books_count": 2,
+						"ratings_count": 475,
+						"text_reviews_count": 25,
+						"original_publication_year": 2003,
+						"original_publication_month": 11,
+						"original_publication_day": 25,
+						"average_rating": 3.86,
+						"best_book": {
+							"id": 4673,
+							"title": "The Great Gatsby",
+							"author": {
+								"id": 25821,
+								"name": "Kathleen Parkinson"
+							},
+							"image_url":
+								"https://s.gr-assets.com/assets/nophoto/book/111x148-bcc042a9c91a29c1d680899eff700a03.png",
+							"small_image_url":
+								"https://s.gr-assets.com/assets/nophoto/book/50x75-a91bf249278a81aabab721ef782c4a74.png"
+						}
+					},
+					{
+						"id": 253374,
+						"books_count": 5,
+						"ratings_count": 868,
+						"text_reviews_count": 67,
+						"original_publication_year": 1925,
+						"original_publication_month": "",
+						"original_publication_day": "",
+						"average_rating": 4.07,
+						"best_book": {
+							"id": 16165773,
+							"title": "The Great Gatsby and Other Stories",
+							"author": {
+								"id": 3190,
+								"name": "F. Scott Fitzgerald"
+							},
+							"image_url":
+								"https://images.gr-assets.com/books/1353640223m/16165773.jpg",
+							"small_image_url":
+								"https://images.gr-assets.com/books/1353640223s/16165773.jpg"
+						}
+					},
+					{
+						"id": 13668014,
+						"books_count": 1,
+						"ratings_count": 334,
+						"text_reviews_count": 19,
+						"original_publication_year": "",
+						"original_publication_month": "",
+						"original_publication_day": "",
+						"average_rating": 3.88,
+						"best_book": {
+							"id": 529719,
+							"title": "The Great Gatsby",
+							"author": {
+								"id": 165187,
+								"name": "Julian Cowley"
+							},
+							"image_url":
+								"https://s.gr-assets.com/assets/nophoto/book/111x148-bcc042a9c91a29c1d680899eff700a03.png",
+							"small_image_url":
+								"https://s.gr-assets.com/assets/nophoto/book/50x75-a91bf249278a81aabab721ef782c4a74.png"
+						}
+					},
+					{
+						"id": 32073856,
+						"books_count": 8,
+						"ratings_count": 1773,
+						"text_reviews_count": 368,
+						"original_publication_year": 2014,
+						"original_publication_month": 9,
+						"original_publication_day": 9,
+						"average_rating": 3.99,
+						"best_book": {
+							"id": 20454072,
+							"title":
+								"So We Read On: How The Great Gatsby Came to Be and Why It Endures",
+							"author": {
+								"id": 60422,
+								"name": "Maureen Corrigan"
+							},
+							"image_url":
+								"https://images.gr-assets.com/books/1414350915m/20454072.jpg",
+							"small_image_url":
+								"https://images.gr-assets.com/books/1414350915s/20454072.jpg"
+						}
+					}
+				]
+			}
+		}
+	}
+}
