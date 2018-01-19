@@ -8,9 +8,7 @@ class App extends Component {
 		return (
 			<div className="App">
 				<JumbotronFluid heading="book search" lead="seearch goodreads api" />
-				<p className="App-intro">
-					To get started, edit <code>src/App.js</code> and save to reload.
-				</p>
+				<p className="App-intro">search a book...</p>
 				<BooksContainer />
 			</div>
 		);
