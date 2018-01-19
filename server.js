@@ -47,13 +47,13 @@ app.get("/api/goodreads/search", (req, res, next) => {
 
 // get info on a book
 app.get("/api/goodreads/book/", (req, res, next) => {
-	console.log(`Requesting book info for ${req.query.id}`);
+	console.log(`Requesting book info for ${req.query.bookId}`);
 
-	fetch(`${baseUrl}book/show/4671.XML?key=${KEY}`)
+	fetch(`${baseUrl}book/show/${req.query.bookId}.XML?key=${KEY}`)
 		.then(checkStatus)
 		.then(parseJSON)
 		.then(json => {
-			console.log("json", JSON.stringify(json, 0, 2));
+			// console.log("json", JSON.stringify(json, 0, 2));
 			res.json(json);
 		})
 		.catch(error => {
